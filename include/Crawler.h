@@ -4,6 +4,7 @@
 
 #ifndef CRAWLER_H
 #define CRAWLER_H
+#include <fstream>
 #include <list>
 #include <queue>
 #include "Position.h"
@@ -18,14 +19,24 @@ private:
     Direction direction;
     int size;
     bool alive;
-    std::vector<Position> path;
+    std::list<Position> path;
+    int killerId = -1;
 
 public:
     Crawler(int id, int x, int y, Direction dir, int size);
     void move();
     void display();
     bool isWayBlocked();
-    int getId() const { return id; }  // New method to get the ID
+    int getId() const { return id; }
+    void recordPosition();
+    void displayLifeHistory() const;
+    void writeLifeHistory(std::ofstream& ofs) const;
+    bool isAlive() const { return alive; }
+    void setDead() { alive = false; }
+
+      const std::list<Position>& getPath() const;
+    void setKillerId(int id) { killerId = id; }
+    int getKillerId() const { return killerId; }
 };
 
 

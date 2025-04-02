@@ -10,7 +10,7 @@
 #include <iostream>
 #include <ostream>
 #include <sstream>
-
+#include <ctime>
 Board::Board() {}
 
 Board::~Board() {
@@ -64,4 +64,42 @@ void Board::tapBoard () {
         crawler->move();
     }
     std::cout << "All bugs have moved." << std::endl;
+}
+void Board::displayLifeHistory() {
+    std::cout << "Bug Life History:\n";
+
+    for (auto* crawler : crawlers) {
+        std::cout << "Bug ID: " << crawler->getId() << " Path: ";
+
+        // Print each position in the bug's path
+        for (const Position& pos : crawler->getPath()) {
+            std::cout << "(" << pos.x << "," << pos.y << ") ";
+        }
+
+        // Check if the bug was eaten
+        if (!crawler->isAlive()) {
+            std::cout << " Eaten by Bug " << crawler->getKillerId();
+        }
+
+        std::cout << std::endl;
+    }
+}
+
+
+void Board::writeLifeHistory() const {
+    std::time_t now = std::time(nullptr);
+    char filename[100];
+    std::strftime(filename, sizeof(filename), "bugs_life_history_%Y-%m-%d_%H-%M-%S.out", std::localtime(&now));
+
+    std::ofstream outFile(filename);
+    if (!outFile) {
+        std::cerr << "Error: Unable to create life history file.\n";
+        return;
+    }
+    for (const auto* crawler : crawlers) {
+        crawler->writeLifeHistory(outFile);
+    }
+
+    outFile.close();
+    std::cout << "Life history saved to " << filename << std::endl;
 }

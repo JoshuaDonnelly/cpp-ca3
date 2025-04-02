@@ -22,6 +22,11 @@ class Board {
     void displayBugs() ;
     void findBug(int id);
     void tapBoard();
+
+    void displayLifeHistory();
+
+    void displayLifeHistory() const;
+    void writeLifeHistory() const;
 };
 
 

@@ -5,6 +5,7 @@
 using namespace std;
 int main() {
     Board board;
+
     int choice;
     int bugId;
     while (true) {
@@ -38,7 +39,16 @@ int main() {
             case 4:
                 board.tapBoard();
                 break;
+            case 5:
+                board.displayLifeHistory();
+                break;
 
+
+            case 8:
+                board.writeLifeHistory();
+                std::cout << "Life history written successfully!\n";
+                std::cout << "Exiting...\n";
+                return 0 ;
             default:
                 cout << "Invalid Choice!\n";
         }

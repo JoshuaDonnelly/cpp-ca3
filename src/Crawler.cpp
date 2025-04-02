@@ -9,12 +9,12 @@
 
 Crawler::Crawler(int id, int x, int y, Direction dir, int size)
     : id(id), position(x, y), direction(dir), size(size), alive(true) {
-    path.push_back(position); // Initial position added to path history
+    path.push_back(position);
 }
 
 void Crawler::move() {
     if (isWayBlocked()) {
-        direction = static_cast<Direction>((rand() % 4) + 1); // Pick a new random direction
+        direction = static_cast<Direction>((rand() % 4) + 1);
     }
 
     switch (direction) {
@@ -41,3 +41,4 @@ void Crawler::display() {
               << " | Size: " << size
               << " | Alive: " << (alive ? "Yes" : "No") << std::endl;
 }
+

@@ -20,6 +20,8 @@ class Board {
 
     void loadBugsFromFile(const std::string& fileName);
     void displayBugs() ;
+    void findBug(int id);
+    void tapBoard();
 };
 
 

@@ -33,18 +33,34 @@ void Board::loadBugsFromFile(const std::string& fileName) {
             Crawler* newBug = new Crawler(id, x, y, static_cast<Direction>(dir), size);
             crawlers.push_back(newBug);
             std::cout << "Loaded Bug: ID=" << id << " Position=(" << x << "," << y << ") Size=" << size << std::endl;
+        } else {
+            std::cerr << "Unrecognized bug type: " << type << std::endl;
         }
     }
 
     std::cout << "Total bugs loaded: " << crawlers.size() << std::endl;
 }
-
 void Board::displayBugs() {
     if (crawlers.empty()) {
         std::cout << "No bugs to display!" << std::endl;
-    } else {
+    }
+    else {
         for (auto* crawler : crawlers) {
-            crawler->display();  // Ensure this method is properly implemented in Crawler
+            crawler->display();
         }
+    }
+}
+void Board::findBug(int id) {
+    for (auto* crawler : crawlers) {
+        if (crawler->getId() == id) {
+            crawler->display();
+            return;
+        }
+    }
+    std::cout << "Bug " << id << " not found." << std::endl;
+}
+void Board::tapBoard () {
+    for (auto* crawler : crawlers) {
+        crawler->move();
     }
 }

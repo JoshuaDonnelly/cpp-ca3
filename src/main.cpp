@@ -6,6 +6,7 @@ using namespace std;
 int main() {
     Board board;
     int choice;
+    int bugId;
     while (true) {
         cout << "\n===== Bug Game =====\n";
         cout << "1. Initialize Bug Board (load data from file) \n";
@@ -19,13 +20,25 @@ int main() {
         cout << "Enter your choice: ";
         cin >> choice;
         switch (choice) {
+
             case 1:
                 board.loadBugsFromFile("crawler-bugs.txt");
                 std::cout << "Bugs loaded successfully!\n";
                 break;
+
             case 2:
                 board.displayBugs();
                 break;
+
+            case 3:
+                cout<<"Enter id to be found: ";
+                cin >> bugId;
+                board.findBug(bugId);
+                break;
+            case 4:
+                board.tapBoard();
+                cout<<"Bugs tapped!\n";
+                board.displayBugs();
             default:
                 cout << "Invalid Choice!\n";
         }

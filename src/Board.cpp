@@ -1,6 +1,5 @@
 //
 // Created by joshu on 01/04/2025.
-//
 
 #include "../include/Board.h"
 #include "../include/Crawler.h"

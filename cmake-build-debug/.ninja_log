@@ -47,3 +47,7 @@
 18	1205	7653299935066262	CMakeFiles/cpp_ca3.dir/src/Board.cpp.obj	88584ae2b1360fdd
 10	874	7653300579694315	CMakeFiles/cpp_ca3.dir/src/Crawler.cpp.obj	5e44dec8ed6de8
 875	1020	7653300588340863	cpp_ca3.exe	8aad2f21ba41719c
+24	1216	7653307623743870	CMakeFiles/cpp_ca3.dir/src/main.cpp.obj	c83f06b7d16f343a
+53	1248	7653307624024398	CMakeFiles/cpp_ca3.dir/src/Crawler.cpp.obj	5e44dec8ed6de8
+44	1356	7653307623934652	CMakeFiles/cpp_ca3.dir/src/Board.cpp.obj	88584ae2b1360fdd
+1356	1639	7653307637049582	cpp_ca3.exe	8aad2f21ba41719c

@@ -1,6 +1,5 @@
 //
 // Created by joshu on 01/04/2025.
-//
 
 #include "../include/Crawler.h"
 #include <cstdlib>
@@ -11,11 +10,13 @@ Crawler::Crawler(int id, int x, int y, Direction dir, int size)
     : id(id), position(x, y), direction(dir), size(size), alive(true) {
     path.push_back(position);
 }
-//Record position to be used in history
+
+// Record position to be used in history
 void Crawler::recordPosition() {
     path.push_back(position);
 }
-//displays movement history
+
+// Displays movement history
 void Crawler::displayLifeHistory() const {
     std::cout << id << " Crawler Path: ";
 
@@ -75,9 +76,7 @@ void Crawler::display() {
               << " | Size: " << size
               << " | Alive: " << (alive ? "Yes" : "No") << std::endl;
 }
+
 const std::list<Position>& Crawler::getPath() const {
     return path;
-}
-int getKillerId () {
-
 }

@@ -63,4 +63,5 @@ void Board::tapBoard () {
     for (auto* crawler : crawlers) {
         crawler->move();
     }
+    std::cout << "All bugs have moved." << std::endl;
 }

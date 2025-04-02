@@ -37,8 +37,8 @@ int main() {
                 break;
             case 4:
                 board.tapBoard();
-                cout<<"Bugs tapped!\n";
-                board.displayBugs();
+                break;
+
             default:
                 cout << "Invalid Choice!\n";
         }

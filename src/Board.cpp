@@ -71,9 +71,64 @@ void Board::findBug(int id) {
 
 void Board::tapBoard() {
     for (auto* crawler : crawlers) {
-        crawler->move();
+        if (crawler->isAlive()) {
+            crawler->move();
+        }
     }
-    cout << "All bugs have moved." << endl;
+    map<pair<int, int>, vector<Crawler*>> cellMap;
+    for (auto* crawler : crawlers) {
+        if (crawler->isAlive()) {
+            cellMap[{crawler->getPosition().x, crawler->getPosition().y}].push_back(crawler);
+        }
+    }
+    for (auto& cell : cellMap) {
+        if (cell.second.size() > 1) {
+            vector<Crawler*> biggestBugs;
+            int maxSize = 0;
+
+            for (auto* bug : cell.second) {
+                if (bug->getSize() > maxSize) {
+                    maxSize = bug->getSize();
+                    biggestBugs.clear();
+                    biggestBugs.push_back(bug);
+                } else if (bug->getSize() == maxSize) {
+                    biggestBugs.push_back(bug);
+                }
+            }
+            Crawler* winner;
+            if (biggestBugs.size() > 1) {
+                int randomIndex = rand() % biggestBugs.size();
+                winner = biggestBugs[randomIndex];
+            } else {
+                winner = biggestBugs[0];
+            }
+            int totalSize = 0;
+            for (auto* bug : cell.second) {
+                if (bug != winner) {
+                    totalSize += bug->getSize();
+                    bug->setDead();
+                    bug->setKillerId(winner->getId());
+                    cout << "Bug " << bug->getId() << " was eaten by Bug " << winner->getId() << endl;
+                }
+            }
+            if (totalSize > 0) {
+                winner->setSize(winner->getSize() + totalSize);
+                cout << "Bug " << winner->getId() << " grew to size " << winner->getSize() << endl;
+            }
+        }
+    }
+    int aliveCount = 0;
+    Crawler* lastBug = nullptr;
+    for (auto* crawler : crawlers) {
+        if (crawler->isAlive()) {
+            aliveCount++;
+            lastBug = crawler;
+        }
+    }
+
+    if (aliveCount == 1 && lastBug != nullptr) {
+        cout << "Bug " << lastBug->getId() << " is the last bug standing!" << endl;
+    }
 }
 
 void Board::displayLifeHistory() {
@@ -114,15 +169,11 @@ void Board::writeLifeHistory() const {
 
 void Board::displayCells() {
     map<pair<int, int>, vector<int>> cellMap;
-
-    // Populate the map with crawler positions
     for (auto* crawler : crawlers) {
-        if (crawler->isAlive()) {  // Only show alive bugs
+        if (crawler->isAlive()) {
             cellMap[{crawler->getPosition().x, crawler->getPosition().y}].push_back(crawler->getId());
         }
     }
-
-    // Display the grid (10x10 grid to match movement logic)
     for (int y = 0; y < 10; ++y) {
         for (int x = 0; x < 10; ++x) {
             cout << "(" << x << "," << y << "): ";

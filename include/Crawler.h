@@ -38,6 +38,8 @@ public:
     void setKillerId(int id) { killerId = id; }
     int getKillerId() const { return killerId; }
     Position getPosition() const { return position; }
+    void setSize(int newSize) { size = newSize; }
+    int getSize() const { return size; }
 };
 
 

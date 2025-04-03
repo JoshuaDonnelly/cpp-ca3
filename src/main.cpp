@@ -45,7 +45,24 @@ int main() {
             case 6 :
                 board.displayCells();
                 break;
+            case 7: {
+                int taps = 0;
+                while (true) {
+                    board.tapBoard();
+                    taps++;
+                    bool onlyOneLeft = true;
+                    int aliveCount = 0;
+                    for (int i = 0; i < 39; i++) {
+                        board.tapBoard();
+                        taps++;
 
+                    }
+
+                    cout << "Simulation complete after " << taps << " taps." << endl;
+                    break;
+                }
+                break;
+            }
 
             case 8:
                 board.writeLifeHistory();

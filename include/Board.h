@@ -27,6 +27,8 @@ class Board {
 
     void displayLifeHistory() const;
     void writeLifeHistory() const;
+
+    void displayCells();
 };
 
 

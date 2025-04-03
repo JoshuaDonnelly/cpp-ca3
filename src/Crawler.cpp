@@ -11,6 +11,7 @@ Crawler::Crawler(int id, int x, int y, Direction dir, int size)
     : id(id), position(x, y), direction(dir), size(size), alive(true) {
     path.push_back(position);
 }
+
 //Record position to be used in history
 void Crawler::recordPosition() {
     path.push_back(position);

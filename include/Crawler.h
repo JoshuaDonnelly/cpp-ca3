@@ -37,6 +37,7 @@ public:
       const std::list<Position>& getPath() const;
     void setKillerId(int id) { killerId = id; }
     int getKillerId() const { return killerId; }
+    Position getPosition() const { return position; }
 };
 
 

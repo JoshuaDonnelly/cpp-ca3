@@ -42,6 +42,9 @@ int main() {
             case 5:
                 board.displayLifeHistory();
                 break;
+            case 6 :
+                board.displayCells();
+                break;
 
 
             case 8:

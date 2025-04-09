@@ -21,7 +21,9 @@ public:
     void loadBugsFromFile(const std::string& fileName);
     void displayBugs() ;
     void findBug(int id);
+    std::vector<Crawler*>& getCrawlers();
     void tapBoard();
+    void displayCells();
 
     void displayLifeHistory();
     void displayLifeHistory() const;

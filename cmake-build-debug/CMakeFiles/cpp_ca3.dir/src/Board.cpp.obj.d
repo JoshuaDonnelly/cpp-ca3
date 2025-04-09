@@ -159,12 +159,7 @@ CMakeFiles/cpp_ca3.dir/src/Board.cpp.obj: \
  C:/Users/joshu/CLionProjects/cpp-ca3-1/include/Position.h \
  C:/Users/joshu/CLionProjects/cpp-ca3-1/include/Crawler.h \
  C:/Users/joshu/CLionProjects/cpp-ca3-1/include/Position.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/thread \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/this_thread_sleep.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/chrono \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
@@ -173,4 +168,12 @@ CMakeFiles/cpp_ca3.dir/src/Board.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/chrono
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/map \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tree.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_map.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_multimap.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/erase_if.h

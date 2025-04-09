@@ -34,10 +34,12 @@ public:
     bool isAlive() const { return alive; }
     void setDead() { alive = false; }
 
-      const std::list<Position>& getPath() const;
+    const std::list<Position>& getPath() const;
     void setKillerId(int id) { killerId = id; }
     int getKillerId() const { return killerId; }
     const Position& getPosition() const { return position; }
+    void setSize(int newSize) { size = newSize; }
+    int getSize() const { return size; }
 };
 
 

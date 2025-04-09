@@ -1,16 +1,13 @@
-//
-// Created by joshu on 07/04/2025.
-//
 #include <SFML/Graphics.hpp>
+#include "../include/Board.h"
 
-int gui()
+int gui(Board& board)
 {
-    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-    sf::CircleShape shape(100.f);
-    shape.setFillColor(sf::Color::Green);
+    sf::RenderWindow window(sf::VideoMode(800, 600), "SFML works!");
 
-    while (window.isOpen())
-    {
+    const int cellSize = 60;
+
+    while (window.isOpen()) {
         sf::Event event;
         while (window.pollEvent(event))
         {
@@ -18,14 +15,31 @@ int gui()
                 window.close();
         }
 
-        window.clear();
-        window.draw(shape);
+        window.clear(sf::Color::Black);
+
+        //display a 10x10 grid
+        for (int x = 0; x < 10; x++) {
+            for (int y = 0; y < 10; y++) {
+                sf::RectangleShape cell(sf::Vector2f(cellSize - 1, cellSize - 1));
+                cell.setPosition(x * cellSize, y * cellSize);
+                cell.setFillColor(sf::Color(50, 50, 50));
+                window.draw(cell);
+            }
+        }
+        //Drawing the bugs
+        for (auto* bug: board.getCrawlers()) {
+            if (bug->isAlive())
+                continue;
+
+            sf::CircleShape shape(20);
+            shape.setFillColor(sf::Color::Green);
+
+            Position pos = bug->getPosition();
+            shape.setPosition(pos.x * cellSize + 10, pos.y * cellSize + 10);
+            window.draw(shape);
+        }
         window.display();
     }
 
     return 0;
 }
-int main() {
-    return gui();
-}
-

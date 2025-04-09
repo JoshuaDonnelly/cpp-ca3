@@ -1,10 +1,12 @@
 #include <iostream>
 #include "../include/Crawler.h"
 #include "../include/Board.h"
+#include "../include/gui.h"
 
 using namespace std;
 int main() {
     Board board;
+
 
     int choice;
     int bugId;
@@ -17,41 +19,62 @@ int main() {
         cout << "5. Display life history of all bugs (path taken)\n";
         cout << "6. Display all cells listing their Bugs\n";
         cout << "7. Run Simulation (generates a tap every tenth of a second)\n";
-        cout << "8. Exit (write life history of all Bugs to file)\n";
+        cout << "11 Load GUI\n";
+        cout << "12 Exit (write life history of all Bugs to file)\n";
         cout << "Enter your choice: ";
         cin >> choice;
         switch (choice) {
 
             case 1:
                 board.loadBugsFromFile("crawler-bugs.txt");
-            std::cout << "Bugs loaded successfully!\n";
-            break;
+                std::cout << "Bugs loaded successfully!\n";
+                break;
 
             case 2:
                 board.displayBugs();
-            break;
+                break;
 
             case 3:
                 cout<<"Enter id to be found: ";
-            cin >> bugId;
-            board.findBug(bugId);
-            break;
+                cin >> bugId;
+                board.findBug(bugId);
+                break;
             case 4:
                 board.tapBoard();
-            break;
+                break;
             case 5:
                 board.displayLifeHistory();
-            break;
+                break;
+            case 6 :
+                board.displayCells();
+                break;
+            case 7: {
+                int taps = 0;
+                while (true) {
+                    board.tapBoard();
+                    taps++;
+                    bool onlyOneLeft = true;
+                    int aliveCount = 0;
+                    for (int i = 0; i < 39; i++) {
+                        board.tapBoard();
+                        taps++;
 
-            case 7:
-                board.runSimulation();
-            break;
+                    }
 
-            case 8:
+                    cout << "Simulation complete after " << taps << " taps." << endl;
+                    break;
+                }
+                break;
+            }
+            case 11:
+                std::cout << "Launching GUI..." << std::endl;
+                  gui( board);
+                  break;
+            case 12:
                 board.writeLifeHistory();
-            std::cout << "Life history written successfully!\n";
-            std::cout << "Exiting...\n";
-            return 0 ;
+                std::cout << "Life history written successfully!\n";
+                std::cout << "Exiting...\n";
+                return 0 ;
             default:
                 cout << "Invalid Choice!\n";
         }

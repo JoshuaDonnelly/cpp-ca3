@@ -237,4 +237,22 @@ CMakeFiles/cpp_ca3.dir/src/gui.cpp.obj: \
  C:/SFML-2.6.2/include/SFML/Graphics/Glsl.inl \
  C:/SFML-2.6.2/include/SFML/Graphics/Sprite.hpp \
  C:/SFML-2.6.2/include/SFML/Graphics/Text.hpp \
- C:/SFML-2.6.2/include/SFML/Graphics/VertexBuffer.hpp
+ C:/SFML-2.6.2/include/SFML/Graphics/VertexBuffer.hpp \
+ C:/Users/joshu/CLionProjects/cpp-ca3-1/include/Board.h \
+ C:/Users/joshu/CLionProjects/cpp-ca3-1/include/Crawler.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/fstream \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fstream.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_list.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/queue \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/deque \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_deque.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/deque.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_queue.h \
+ C:/Users/joshu/CLionProjects/cpp-ca3-1/include/Position.h

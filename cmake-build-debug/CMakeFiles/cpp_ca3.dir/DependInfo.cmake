@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/joshu/CLionProjects/cpp-ca3-1/src/Board.cpp" "CMakeFiles/cpp_ca3.dir/src/Board.cpp.obj" "gcc" "CMakeFiles/cpp_ca3.dir/src/Board.cpp.obj.d"
   "C:/Users/joshu/CLionProjects/cpp-ca3-1/src/Crawler.cpp" "CMakeFiles/cpp_ca3.dir/src/Crawler.cpp.obj" "gcc" "CMakeFiles/cpp_ca3.dir/src/Crawler.cpp.obj.d"
   "C:/Users/joshu/CLionProjects/cpp-ca3-1/src/gui.cpp" "CMakeFiles/cpp_ca3.dir/src/gui.cpp.obj" "gcc" "CMakeFiles/cpp_ca3.dir/src/gui.cpp.obj.d"
+  "C:/Users/joshu/CLionProjects/cpp-ca3-1/src/main.cpp" "CMakeFiles/cpp_ca3.dir/src/main.cpp.obj" "gcc" "CMakeFiles/cpp_ca3.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

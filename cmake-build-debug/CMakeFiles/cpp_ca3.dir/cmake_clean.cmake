@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp_ca3.dir/src/Crawler.cpp.obj.d"
   "CMakeFiles/cpp_ca3.dir/src/gui.cpp.obj"
   "CMakeFiles/cpp_ca3.dir/src/gui.cpp.obj.d"
+  "CMakeFiles/cpp_ca3.dir/src/main.cpp.obj"
+  "CMakeFiles/cpp_ca3.dir/src/main.cpp.obj.d"
   "bin/cpp_ca3.exe"
   "bin/cpp_ca3.exe.manifest"
   "bin/cpp_ca3.pdb"

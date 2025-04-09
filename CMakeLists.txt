@@ -16,9 +16,14 @@ add_executable(cpp_ca3
         include/Board.h
         include/Crawler.h
         include/Position.h
+        include/gui.h
+        src/main.cpp
 )
 
 target_link_libraries(cpp_ca3 sfml-system sfml-window sfml-graphics sfml-audio)
+
+set_target_properties(cpp_ca3 PROPERTIES LINK_FLAGS "-mconsole")
+
 
 
 # Set runtime output directory

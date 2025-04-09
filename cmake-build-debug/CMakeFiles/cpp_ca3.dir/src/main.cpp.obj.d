@@ -158,4 +158,6 @@ CMakeFiles/cpp_ca3.dir/src/main.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
  C:/Users/joshu/CLionProjects/cpp-ca3-1/include/Position.h \
  C:/Users/joshu/CLionProjects/cpp-ca3-1/include/Board.h \
- C:/Users/joshu/CLionProjects/cpp-ca3-1/include/Crawler.h
+ C:/Users/joshu/CLionProjects/cpp-ca3-1/include/Crawler.h \
+ C:/Users/joshu/CLionProjects/cpp-ca3-1/include/gui.h \
+ C:/Users/joshu/CLionProjects/cpp-ca3-1/include/Board.h

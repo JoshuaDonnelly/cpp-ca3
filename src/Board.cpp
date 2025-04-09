@@ -6,11 +6,11 @@
 #include "../include/Crawler.h"
 #include "../include/Position.h"
 
-#include <fstream>
+
 #include <iostream>
-#include <ostream>
-#include <sstream>
-#include <ctime>
+#include <thread>
+#include <chrono>
+#include <fstream>
 Board::Board() {}
 
 Board::~Board() {
@@ -102,4 +102,33 @@ void Board::writeLifeHistory() const {
 
     outFile.close();
     std::cout << "Life history saved to " << filename << std::endl;
+}
+void Board::runSimulation() {
+    using namespace std::chrono;
+    std::ofstream outFile("simulation_results.txt");
+
+    int iterations = 0;
+    while (true) {
+        tapBoard();
+        displayBugs();
+
+        // Write progress to file
+        outFile << "Iteration " << iterations << ":\n";
+        for (const auto& crawler : crawlers) {
+            outFile << "Bug " << crawler->getId() << " is at position ("
+                    << crawler->getPosition().x << ", "
+                    << crawler->getPosition().y << ")\n";
+        }
+        outFile << "\n";
+
+        // Check game-over condition (example: after 100 iterations)
+        if (++iterations >= 100) {
+            break;
+        }
+
+
+    }
+
+    outFile.close();
+    std::cout << "Simulation completed and results written to file.\n";
 }

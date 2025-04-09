@@ -11,10 +11,10 @@
 
 
 class Board {
-    private:
+private:
     std::vector<Crawler*> crawlers;
 
-    public:
+public:
     Board();
     ~Board();
 
@@ -24,11 +24,11 @@ class Board {
     void tapBoard();
 
     void displayLifeHistory();
-
     void displayLifeHistory() const;
     void writeLifeHistory() const;
+
+
+    void runSimulation();
 };
-
-
 
 #endif //BOARD_H

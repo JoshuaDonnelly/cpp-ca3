@@ -24,31 +24,34 @@ int main() {
 
             case 1:
                 board.loadBugsFromFile("crawler-bugs.txt");
-                std::cout << "Bugs loaded successfully!\n";
-                break;
+            std::cout << "Bugs loaded successfully!\n";
+            break;
 
             case 2:
                 board.displayBugs();
-                break;
+            break;
 
             case 3:
                 cout<<"Enter id to be found: ";
-                cin >> bugId;
-                board.findBug(bugId);
-                break;
+            cin >> bugId;
+            board.findBug(bugId);
+            break;
             case 4:
                 board.tapBoard();
-                break;
+            break;
             case 5:
                 board.displayLifeHistory();
-                break;
+            break;
 
+            case 7:
+                board.runSimulation();
+            break;
 
             case 8:
                 board.writeLifeHistory();
-                std::cout << "Life history written successfully!\n";
-                std::cout << "Exiting...\n";
-                return 0 ;
+            std::cout << "Life history written successfully!\n";
+            std::cout << "Exiting...\n";
+            return 0 ;
             default:
                 cout << "Invalid Choice!\n";
         }

@@ -26,12 +26,12 @@ void Board::loadBugsFromFile(const string& fileName) {
     char type;
     int id, x, y, dir, size, hopLength;
     while (file >> type >> id >> x >> y >> dir >> size) {
-         if (type == 'H') {
+        if (type == 'H') {
             file >> hopLength;
             bugs.push_back(new Hopper(id, x, y, static_cast<Direction>(dir), size, hopLength));
             cout << "Loaded Hopper: ID=" << id << " HopLength=" << hopLength << endl;
         }
-        if (type == 'C') {
+        else if (type == 'C') {
             bugs.push_back(new Crawler(id, x, y, static_cast<Direction>(dir), size));
             cout << "Loaded Crawler: ID=" << id << endl;
         }

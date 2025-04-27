@@ -10,6 +10,7 @@ int main() {
 
     int choice;
     int bugId;
+
     while (true) {
         cout << "\n===== Bug Game =====\n";
         cout << "1. Initialize Bug Board (load data from file) \n";

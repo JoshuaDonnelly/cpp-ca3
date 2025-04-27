@@ -15,6 +15,7 @@ public:
 
     void loadBugsFromFile(const std::string& fileName);
     void displayBugs() const;
+
     Bug* findBug(int id);
     std::vector<Bug*>& getBugs() { return bugs; }
     void tapBoard();

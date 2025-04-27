@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "F:\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "F:\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\dylan\CLionProjects\cpp-ca3
+CMAKE_SOURCE_DIR = C:\Users\joshu\CLionProjects\cpp-ca3-github
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\dylan\CLionProjects\cpp-ca3\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\joshu\CLionProjects\cpp-ca3-github\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cpp_ca3.dir/depend.make
@@ -70,93 +70,93 @@ include CMakeFiles/cpp_ca3.dir/flags.make
 
 CMakeFiles/cpp_ca3.dir/src/gui.cpp.obj: CMakeFiles/cpp_ca3.dir/flags.make
 CMakeFiles/cpp_ca3.dir/src/gui.cpp.obj: CMakeFiles/cpp_ca3.dir/includes_CXX.rsp
-CMakeFiles/cpp_ca3.dir/src/gui.cpp.obj: C:/Users/dylan/CLionProjects/cpp-ca3/src/gui.cpp
+CMakeFiles/cpp_ca3.dir/src/gui.cpp.obj: C:/Users/joshu/CLionProjects/cpp-ca3-github/src/gui.cpp
 CMakeFiles/cpp_ca3.dir/src/gui.cpp.obj: CMakeFiles/cpp_ca3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\dylan\CLionProjects\cpp-ca3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp_ca3.dir/src/gui.cpp.obj"
-	"F:\CLion 2024.3.5\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_ca3.dir/src/gui.cpp.obj -MF CMakeFiles\cpp_ca3.dir\src\gui.cpp.obj.d -o CMakeFiles\cpp_ca3.dir\src\gui.cpp.obj -c C:\Users\dylan\CLionProjects\cpp-ca3\src\gui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\joshu\CLionProjects\cpp-ca3-github\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp_ca3.dir/src/gui.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_ca3.dir/src/gui.cpp.obj -MF CMakeFiles\cpp_ca3.dir\src\gui.cpp.obj.d -o CMakeFiles\cpp_ca3.dir\src\gui.cpp.obj -c C:\Users\joshu\CLionProjects\cpp-ca3-github\src\gui.cpp
 
 CMakeFiles/cpp_ca3.dir/src/gui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cpp_ca3.dir/src/gui.cpp.i"
-	"F:\CLion 2024.3.5\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dylan\CLionProjects\cpp-ca3\src\gui.cpp > CMakeFiles\cpp_ca3.dir\src\gui.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\joshu\CLionProjects\cpp-ca3-github\src\gui.cpp > CMakeFiles\cpp_ca3.dir\src\gui.cpp.i
 
 CMakeFiles/cpp_ca3.dir/src/gui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpp_ca3.dir/src/gui.cpp.s"
-	"F:\CLion 2024.3.5\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dylan\CLionProjects\cpp-ca3\src\gui.cpp -o CMakeFiles\cpp_ca3.dir\src\gui.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\joshu\CLionProjects\cpp-ca3-github\src\gui.cpp -o CMakeFiles\cpp_ca3.dir\src\gui.cpp.s
 
 CMakeFiles/cpp_ca3.dir/src/Board.cpp.obj: CMakeFiles/cpp_ca3.dir/flags.make
 CMakeFiles/cpp_ca3.dir/src/Board.cpp.obj: CMakeFiles/cpp_ca3.dir/includes_CXX.rsp
-CMakeFiles/cpp_ca3.dir/src/Board.cpp.obj: C:/Users/dylan/CLionProjects/cpp-ca3/src/Board.cpp
+CMakeFiles/cpp_ca3.dir/src/Board.cpp.obj: C:/Users/joshu/CLionProjects/cpp-ca3-github/src/Board.cpp
 CMakeFiles/cpp_ca3.dir/src/Board.cpp.obj: CMakeFiles/cpp_ca3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\dylan\CLionProjects\cpp-ca3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp_ca3.dir/src/Board.cpp.obj"
-	"F:\CLion 2024.3.5\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_ca3.dir/src/Board.cpp.obj -MF CMakeFiles\cpp_ca3.dir\src\Board.cpp.obj.d -o CMakeFiles\cpp_ca3.dir\src\Board.cpp.obj -c C:\Users\dylan\CLionProjects\cpp-ca3\src\Board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\joshu\CLionProjects\cpp-ca3-github\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp_ca3.dir/src/Board.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_ca3.dir/src/Board.cpp.obj -MF CMakeFiles\cpp_ca3.dir\src\Board.cpp.obj.d -o CMakeFiles\cpp_ca3.dir\src\Board.cpp.obj -c C:\Users\joshu\CLionProjects\cpp-ca3-github\src\Board.cpp
 
 CMakeFiles/cpp_ca3.dir/src/Board.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cpp_ca3.dir/src/Board.cpp.i"
-	"F:\CLion 2024.3.5\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dylan\CLionProjects\cpp-ca3\src\Board.cpp > CMakeFiles\cpp_ca3.dir\src\Board.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\joshu\CLionProjects\cpp-ca3-github\src\Board.cpp > CMakeFiles\cpp_ca3.dir\src\Board.cpp.i
 
 CMakeFiles/cpp_ca3.dir/src/Board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpp_ca3.dir/src/Board.cpp.s"
-	"F:\CLion 2024.3.5\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dylan\CLionProjects\cpp-ca3\src\Board.cpp -o CMakeFiles\cpp_ca3.dir\src\Board.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\joshu\CLionProjects\cpp-ca3-github\src\Board.cpp -o CMakeFiles\cpp_ca3.dir\src\Board.cpp.s
 
 CMakeFiles/cpp_ca3.dir/src/Crawler.cpp.obj: CMakeFiles/cpp_ca3.dir/flags.make
 CMakeFiles/cpp_ca3.dir/src/Crawler.cpp.obj: CMakeFiles/cpp_ca3.dir/includes_CXX.rsp
-CMakeFiles/cpp_ca3.dir/src/Crawler.cpp.obj: C:/Users/dylan/CLionProjects/cpp-ca3/src/Crawler.cpp
+CMakeFiles/cpp_ca3.dir/src/Crawler.cpp.obj: C:/Users/joshu/CLionProjects/cpp-ca3-github/src/Crawler.cpp
 CMakeFiles/cpp_ca3.dir/src/Crawler.cpp.obj: CMakeFiles/cpp_ca3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\dylan\CLionProjects\cpp-ca3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpp_ca3.dir/src/Crawler.cpp.obj"
-	"F:\CLion 2024.3.5\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_ca3.dir/src/Crawler.cpp.obj -MF CMakeFiles\cpp_ca3.dir\src\Crawler.cpp.obj.d -o CMakeFiles\cpp_ca3.dir\src\Crawler.cpp.obj -c C:\Users\dylan\CLionProjects\cpp-ca3\src\Crawler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\joshu\CLionProjects\cpp-ca3-github\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpp_ca3.dir/src/Crawler.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_ca3.dir/src/Crawler.cpp.obj -MF CMakeFiles\cpp_ca3.dir\src\Crawler.cpp.obj.d -o CMakeFiles\cpp_ca3.dir\src\Crawler.cpp.obj -c C:\Users\joshu\CLionProjects\cpp-ca3-github\src\Crawler.cpp
 
 CMakeFiles/cpp_ca3.dir/src/Crawler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cpp_ca3.dir/src/Crawler.cpp.i"
-	"F:\CLion 2024.3.5\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dylan\CLionProjects\cpp-ca3\src\Crawler.cpp > CMakeFiles\cpp_ca3.dir\src\Crawler.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\joshu\CLionProjects\cpp-ca3-github\src\Crawler.cpp > CMakeFiles\cpp_ca3.dir\src\Crawler.cpp.i
 
 CMakeFiles/cpp_ca3.dir/src/Crawler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpp_ca3.dir/src/Crawler.cpp.s"
-	"F:\CLion 2024.3.5\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dylan\CLionProjects\cpp-ca3\src\Crawler.cpp -o CMakeFiles\cpp_ca3.dir\src\Crawler.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\joshu\CLionProjects\cpp-ca3-github\src\Crawler.cpp -o CMakeFiles\cpp_ca3.dir\src\Crawler.cpp.s
 
 CMakeFiles/cpp_ca3.dir/src/main.cpp.obj: CMakeFiles/cpp_ca3.dir/flags.make
 CMakeFiles/cpp_ca3.dir/src/main.cpp.obj: CMakeFiles/cpp_ca3.dir/includes_CXX.rsp
-CMakeFiles/cpp_ca3.dir/src/main.cpp.obj: C:/Users/dylan/CLionProjects/cpp-ca3/src/main.cpp
+CMakeFiles/cpp_ca3.dir/src/main.cpp.obj: C:/Users/joshu/CLionProjects/cpp-ca3-github/src/main.cpp
 CMakeFiles/cpp_ca3.dir/src/main.cpp.obj: CMakeFiles/cpp_ca3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\dylan\CLionProjects\cpp-ca3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp_ca3.dir/src/main.cpp.obj"
-	"F:\CLion 2024.3.5\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_ca3.dir/src/main.cpp.obj -MF CMakeFiles\cpp_ca3.dir\src\main.cpp.obj.d -o CMakeFiles\cpp_ca3.dir\src\main.cpp.obj -c C:\Users\dylan\CLionProjects\cpp-ca3\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\joshu\CLionProjects\cpp-ca3-github\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp_ca3.dir/src/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_ca3.dir/src/main.cpp.obj -MF CMakeFiles\cpp_ca3.dir\src\main.cpp.obj.d -o CMakeFiles\cpp_ca3.dir\src\main.cpp.obj -c C:\Users\joshu\CLionProjects\cpp-ca3-github\src\main.cpp
 
 CMakeFiles/cpp_ca3.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cpp_ca3.dir/src/main.cpp.i"
-	"F:\CLion 2024.3.5\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dylan\CLionProjects\cpp-ca3\src\main.cpp > CMakeFiles\cpp_ca3.dir\src\main.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\joshu\CLionProjects\cpp-ca3-github\src\main.cpp > CMakeFiles\cpp_ca3.dir\src\main.cpp.i
 
 CMakeFiles/cpp_ca3.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpp_ca3.dir/src/main.cpp.s"
-	"F:\CLion 2024.3.5\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dylan\CLionProjects\cpp-ca3\src\main.cpp -o CMakeFiles\cpp_ca3.dir\src\main.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\joshu\CLionProjects\cpp-ca3-github\src\main.cpp -o CMakeFiles\cpp_ca3.dir\src\main.cpp.s
 
 CMakeFiles/cpp_ca3.dir/src/Bug.cpp.obj: CMakeFiles/cpp_ca3.dir/flags.make
 CMakeFiles/cpp_ca3.dir/src/Bug.cpp.obj: CMakeFiles/cpp_ca3.dir/includes_CXX.rsp
-CMakeFiles/cpp_ca3.dir/src/Bug.cpp.obj: C:/Users/dylan/CLionProjects/cpp-ca3/src/Bug.cpp
+CMakeFiles/cpp_ca3.dir/src/Bug.cpp.obj: C:/Users/joshu/CLionProjects/cpp-ca3-github/src/Bug.cpp
 CMakeFiles/cpp_ca3.dir/src/Bug.cpp.obj: CMakeFiles/cpp_ca3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\dylan\CLionProjects\cpp-ca3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpp_ca3.dir/src/Bug.cpp.obj"
-	"F:\CLion 2024.3.5\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_ca3.dir/src/Bug.cpp.obj -MF CMakeFiles\cpp_ca3.dir\src\Bug.cpp.obj.d -o CMakeFiles\cpp_ca3.dir\src\Bug.cpp.obj -c C:\Users\dylan\CLionProjects\cpp-ca3\src\Bug.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\joshu\CLionProjects\cpp-ca3-github\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpp_ca3.dir/src/Bug.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_ca3.dir/src/Bug.cpp.obj -MF CMakeFiles\cpp_ca3.dir\src\Bug.cpp.obj.d -o CMakeFiles\cpp_ca3.dir\src\Bug.cpp.obj -c C:\Users\joshu\CLionProjects\cpp-ca3-github\src\Bug.cpp
 
 CMakeFiles/cpp_ca3.dir/src/Bug.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cpp_ca3.dir/src/Bug.cpp.i"
-	"F:\CLion 2024.3.5\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dylan\CLionProjects\cpp-ca3\src\Bug.cpp > CMakeFiles\cpp_ca3.dir\src\Bug.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\joshu\CLionProjects\cpp-ca3-github\src\Bug.cpp > CMakeFiles\cpp_ca3.dir\src\Bug.cpp.i
 
 CMakeFiles/cpp_ca3.dir/src/Bug.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpp_ca3.dir/src/Bug.cpp.s"
-	"F:\CLion 2024.3.5\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dylan\CLionProjects\cpp-ca3\src\Bug.cpp -o CMakeFiles\cpp_ca3.dir\src\Bug.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\joshu\CLionProjects\cpp-ca3-github\src\Bug.cpp -o CMakeFiles\cpp_ca3.dir\src\Bug.cpp.s
 
 CMakeFiles/cpp_ca3.dir/src/Hopper.cpp.obj: CMakeFiles/cpp_ca3.dir/flags.make
 CMakeFiles/cpp_ca3.dir/src/Hopper.cpp.obj: CMakeFiles/cpp_ca3.dir/includes_CXX.rsp
-CMakeFiles/cpp_ca3.dir/src/Hopper.cpp.obj: C:/Users/dylan/CLionProjects/cpp-ca3/src/Hopper.cpp
+CMakeFiles/cpp_ca3.dir/src/Hopper.cpp.obj: C:/Users/joshu/CLionProjects/cpp-ca3-github/src/Hopper.cpp
 CMakeFiles/cpp_ca3.dir/src/Hopper.cpp.obj: CMakeFiles/cpp_ca3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\dylan\CLionProjects\cpp-ca3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cpp_ca3.dir/src/Hopper.cpp.obj"
-	"F:\CLion 2024.3.5\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_ca3.dir/src/Hopper.cpp.obj -MF CMakeFiles\cpp_ca3.dir\src\Hopper.cpp.obj.d -o CMakeFiles\cpp_ca3.dir\src\Hopper.cpp.obj -c C:\Users\dylan\CLionProjects\cpp-ca3\src\Hopper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\joshu\CLionProjects\cpp-ca3-github\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cpp_ca3.dir/src/Hopper.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_ca3.dir/src/Hopper.cpp.obj -MF CMakeFiles\cpp_ca3.dir\src\Hopper.cpp.obj.d -o CMakeFiles\cpp_ca3.dir\src\Hopper.cpp.obj -c C:\Users\joshu\CLionProjects\cpp-ca3-github\src\Hopper.cpp
 
 CMakeFiles/cpp_ca3.dir/src/Hopper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cpp_ca3.dir/src/Hopper.cpp.i"
-	"F:\CLion 2024.3.5\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dylan\CLionProjects\cpp-ca3\src\Hopper.cpp > CMakeFiles\cpp_ca3.dir\src\Hopper.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\joshu\CLionProjects\cpp-ca3-github\src\Hopper.cpp > CMakeFiles\cpp_ca3.dir\src\Hopper.cpp.i
 
 CMakeFiles/cpp_ca3.dir/src/Hopper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpp_ca3.dir/src/Hopper.cpp.s"
-	"F:\CLion 2024.3.5\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dylan\CLionProjects\cpp-ca3\src\Hopper.cpp -o CMakeFiles\cpp_ca3.dir\src\Hopper.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\joshu\CLionProjects\cpp-ca3-github\src\Hopper.cpp -o CMakeFiles\cpp_ca3.dir\src\Hopper.cpp.s
 
 # Object files for target cpp_ca3
 cpp_ca3_OBJECTS = \
@@ -184,7 +184,7 @@ bin/cpp_ca3.exe: C:/SFML-2.6.2/lib/libsfml-system-d.a
 bin/cpp_ca3.exe: CMakeFiles/cpp_ca3.dir/linkLibs.rsp
 bin/cpp_ca3.exe: CMakeFiles/cpp_ca3.dir/objects1.rsp
 bin/cpp_ca3.exe: CMakeFiles/cpp_ca3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\dylan\CLionProjects\cpp-ca3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable bin\cpp_ca3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\joshu\CLionProjects\cpp-ca3-github\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable bin\cpp_ca3.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cpp_ca3.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -196,6 +196,6 @@ CMakeFiles/cpp_ca3.dir/clean:
 .PHONY : CMakeFiles/cpp_ca3.dir/clean
 
 CMakeFiles/cpp_ca3.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\dylan\CLionProjects\cpp-ca3 C:\Users\dylan\CLionProjects\cpp-ca3 C:\Users\dylan\CLionProjects\cpp-ca3\cmake-build-debug C:\Users\dylan\CLionProjects\cpp-ca3\cmake-build-debug C:\Users\dylan\CLionProjects\cpp-ca3\cmake-build-debug\CMakeFiles\cpp_ca3.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\joshu\CLionProjects\cpp-ca3-github C:\Users\joshu\CLionProjects\cpp-ca3-github C:\Users\joshu\CLionProjects\cpp-ca3-github\cmake-build-debug C:\Users\joshu\CLionProjects\cpp-ca3-github\cmake-build-debug C:\Users\joshu\CLionProjects\cpp-ca3-github\cmake-build-debug\CMakeFiles\cpp_ca3.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/cpp_ca3.dir/depend
 

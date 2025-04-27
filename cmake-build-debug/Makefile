@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "F:\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "F:\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\joshu\CLionProjects\cpp-ca3-1
+CMAKE_SOURCE_DIR = C:\Users\dylan\CLionProjects\cpp-ca3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\joshu\CLionProjects\cpp-ca3-1\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\dylan\CLionProjects\cpp-ca3\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\joshu\CLionProjects\cpp-ca3-1\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"F:\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"F:\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\joshu\CLionProjects\cpp-ca3-1\cmake-build-debug\CMakeFiles C:\Users\joshu\CLionProjects\cpp-ca3-1\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dylan\CLionProjects\cpp-ca3\cmake-build-debug\CMakeFiles C:\Users\dylan\CLionProjects\cpp-ca3\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\joshu\CLionProjects\cpp-ca3-1\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dylan\CLionProjects\cpp-ca3\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -152,6 +152,30 @@ src/Board.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_ca3.dir\build.make CMakeFiles/cpp_ca3.dir/src/Board.cpp.s
 .PHONY : src/Board.cpp.s
 
+src/Bug.obj: src/Bug.cpp.obj
+.PHONY : src/Bug.obj
+
+# target to build an object file
+src/Bug.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_ca3.dir\build.make CMakeFiles/cpp_ca3.dir/src/Bug.cpp.obj
+.PHONY : src/Bug.cpp.obj
+
+src/Bug.i: src/Bug.cpp.i
+.PHONY : src/Bug.i
+
+# target to preprocess a source file
+src/Bug.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_ca3.dir\build.make CMakeFiles/cpp_ca3.dir/src/Bug.cpp.i
+.PHONY : src/Bug.cpp.i
+
+src/Bug.s: src/Bug.cpp.s
+.PHONY : src/Bug.s
+
+# target to generate assembly for a file
+src/Bug.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_ca3.dir\build.make CMakeFiles/cpp_ca3.dir/src/Bug.cpp.s
+.PHONY : src/Bug.cpp.s
+
 src/Crawler.obj: src/Crawler.cpp.obj
 .PHONY : src/Crawler.obj
 
@@ -175,6 +199,30 @@ src/Crawler.s: src/Crawler.cpp.s
 src/Crawler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_ca3.dir\build.make CMakeFiles/cpp_ca3.dir/src/Crawler.cpp.s
 .PHONY : src/Crawler.cpp.s
+
+src/Hopper.obj: src/Hopper.cpp.obj
+.PHONY : src/Hopper.obj
+
+# target to build an object file
+src/Hopper.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_ca3.dir\build.make CMakeFiles/cpp_ca3.dir/src/Hopper.cpp.obj
+.PHONY : src/Hopper.cpp.obj
+
+src/Hopper.i: src/Hopper.cpp.i
+.PHONY : src/Hopper.i
+
+# target to preprocess a source file
+src/Hopper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_ca3.dir\build.make CMakeFiles/cpp_ca3.dir/src/Hopper.cpp.i
+.PHONY : src/Hopper.cpp.i
+
+src/Hopper.s: src/Hopper.cpp.s
+.PHONY : src/Hopper.s
+
+# target to generate assembly for a file
+src/Hopper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_ca3.dir\build.make CMakeFiles/cpp_ca3.dir/src/Hopper.cpp.s
+.PHONY : src/Hopper.cpp.s
 
 src/gui.obj: src/gui.cpp.obj
 .PHONY : src/gui.obj
@@ -236,9 +284,15 @@ help:
 	@echo ... src/Board.obj
 	@echo ... src/Board.i
 	@echo ... src/Board.s
+	@echo ... src/Bug.obj
+	@echo ... src/Bug.i
+	@echo ... src/Bug.s
 	@echo ... src/Crawler.obj
 	@echo ... src/Crawler.i
 	@echo ... src/Crawler.s
+	@echo ... src/Hopper.obj
+	@echo ... src/Hopper.i
+	@echo ... src/Hopper.s
 	@echo ... src/gui.obj
 	@echo ... src/gui.i
 	@echo ... src/gui.s

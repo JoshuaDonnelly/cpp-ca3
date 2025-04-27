@@ -1,36 +1,27 @@
-//
-// Created by joshu on 01/04/2025.
-//
-
 #ifndef BOARD_H
 #define BOARD_H
+
 #include <string>
 #include <vector>
-
-#include "Crawler.h"
-
+#include "Bug.h"
 
 class Board {
 private:
-    std::vector<Crawler*> crawlers;
+    std::vector<Bug*> bugs;
 
 public:
     Board();
     ~Board();
 
     void loadBugsFromFile(const std::string& fileName);
-    void displayBugs() ;
-    void findBug(int id);
-    std::vector<Crawler*>& getCrawlers();
+    void displayBugs() const;
+    Bug* findBug(int id);
+    std::vector<Bug*>& getBugs() { return bugs; }
     void tapBoard();
-    void displayCells();
-
-    void displayLifeHistory();
+    void displayCells() const;
     void displayLifeHistory() const;
     void writeLifeHistory() const;
-
-
     void runSimulation();
 };
 
-#endif //BOARD_H
+#endif // BOARD_H

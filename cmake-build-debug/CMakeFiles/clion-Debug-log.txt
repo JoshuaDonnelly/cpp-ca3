@@ -1,5 +1,5 @@
-"C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\joshu\CLionProjects\cpp-ca3-1 -B C:\Users\joshu\CLionProjects\cpp-ca3-1\cmake-build-debug
+"F:\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\dylan\CLionProjects\cpp-ca3 -B C:\Users\dylan\CLionProjects\cpp-ca3\cmake-build-debug
 -- Found SFML 2.6.2 in C:/SFML-2.6.2/lib/cmake/SFML
--- Configuring done (0.2s)
+-- Configuring done (0.1s)
 -- Generating done (0.0s)
--- Build files have been written to: C:/Users/joshu/CLionProjects/cpp-ca3-1/cmake-build-debug
+-- Build files have been written to: C:/Users/dylan/CLionProjects/cpp-ca3/cmake-build-debug

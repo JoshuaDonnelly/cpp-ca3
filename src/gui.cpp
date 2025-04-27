@@ -48,13 +48,25 @@ int gui(Board& board) {
 
         // Draw bugs
         for (auto* bug : board.getBugs()) {
-            if (!bug->isAlive()) continue;
+            // In the bug drawing section:
+            for (auto* bug : board.getBugs()) {
+                if (!bug->isAlive()) continue;
 
-            sf::CircleShape shape(20);
-            shape.setFillColor(bug->getType() == "Crawler" ? sf::Color::Green : sf::Color::Blue);
-            Position pos = bug->getPosition();
-            shape.setPosition(pos.x * cellSize + 10, pos.y * cellSize + 10);
-            window.draw(shape);
+                sf::CircleShape shape(20);
+                if (bug->getType() == "Crawler") {
+                    shape.setFillColor(sf::Color::Green);
+                }
+                else if (bug->getType() == "Hopper") {
+                    shape.setFillColor(sf::Color::Blue);
+                }
+                else if (bug->getType() == "Spider") {
+                    shape.setFillColor(sf::Color::Red);
+                }
+
+                Position pos = bug->getPosition();
+                shape.setPosition(pos.x * cellSize + 10, pos.y * cellSize + 10);
+                window.draw(shape);
+            }
         }
 
         window.display();

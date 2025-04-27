@@ -224,6 +224,30 @@ src/Hopper.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_ca3.dir\build.make CMakeFiles/cpp_ca3.dir/src/Hopper.cpp.s
 .PHONY : src/Hopper.cpp.s
 
+src/Spider.obj: src/Spider.cpp.obj
+.PHONY : src/Spider.obj
+
+# target to build an object file
+src/Spider.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_ca3.dir\build.make CMakeFiles/cpp_ca3.dir/src/Spider.cpp.obj
+.PHONY : src/Spider.cpp.obj
+
+src/Spider.i: src/Spider.cpp.i
+.PHONY : src/Spider.i
+
+# target to preprocess a source file
+src/Spider.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_ca3.dir\build.make CMakeFiles/cpp_ca3.dir/src/Spider.cpp.i
+.PHONY : src/Spider.cpp.i
+
+src/Spider.s: src/Spider.cpp.s
+.PHONY : src/Spider.s
+
+# target to generate assembly for a file
+src/Spider.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_ca3.dir\build.make CMakeFiles/cpp_ca3.dir/src/Spider.cpp.s
+.PHONY : src/Spider.cpp.s
+
 src/gui.obj: src/gui.cpp.obj
 .PHONY : src/gui.obj
 
@@ -293,6 +317,9 @@ help:
 	@echo ... src/Hopper.obj
 	@echo ... src/Hopper.i
 	@echo ... src/Hopper.s
+	@echo ... src/Spider.obj
+	@echo ... src/Spider.i
+	@echo ... src/Spider.s
 	@echo ... src/gui.obj
 	@echo ... src/gui.i
 	@echo ... src/gui.s

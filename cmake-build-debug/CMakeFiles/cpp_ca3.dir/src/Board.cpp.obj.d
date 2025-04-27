@@ -152,6 +152,7 @@ CMakeFiles/cpp_ca3.dir/src/Board.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fstream.tcc \
  C:/Users/joshu/CLionProjects/cpp-ca3-github/include/Crawler.h \
  C:/Users/joshu/CLionProjects/cpp-ca3-github/include/Hopper.h \
+ C:/Users/joshu/CLionProjects/cpp-ca3-github/include/Spider.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/chrono \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \

@@ -20,8 +20,8 @@ int main() {
         cout << "5. Display life history of all bugs (path taken)\n";
         cout << "6. Display all cells listing their Bugs\n";
         cout << "7. Run Simulation (generates a tap every tenth of a second)\n";
-        cout << "11. Load GUI\n";
-        cout << "12 Exit (write life history of all Bugs to file)\n";
+        cout << "8. Load GUI\n";
+        cout << "9. Exit (write life history of all Bugs to file)\n";
         cout << "Enter your choice: ";
         cin >> choice;
         switch (choice) {
@@ -67,11 +67,11 @@ int main() {
                 }
                 break;
             }
-            case 11:
+            case 8:
                 std::cout << "Launching GUI..." << std::endl;
                   gui( board);
                   break;
-            case 12:
+            case 9:
                 board.writeLifeHistory();
                 std::cout << "Life history written successfully!\n";
                 std::cout << "Exiting...\n";

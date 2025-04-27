@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp_ca3.dir/src/Crawler.cpp.obj.d"
   "CMakeFiles/cpp_ca3.dir/src/Hopper.cpp.obj"
   "CMakeFiles/cpp_ca3.dir/src/Hopper.cpp.obj.d"
+  "CMakeFiles/cpp_ca3.dir/src/Spider.cpp.obj"
+  "CMakeFiles/cpp_ca3.dir/src/Spider.cpp.obj.d"
   "CMakeFiles/cpp_ca3.dir/src/gui.cpp.obj"
   "CMakeFiles/cpp_ca3.dir/src/gui.cpp.obj.d"
   "CMakeFiles/cpp_ca3.dir/src/main.cpp.obj"

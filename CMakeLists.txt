@@ -22,6 +22,8 @@ add_executable(cpp_ca3
         include/Hopper.h
         src/Bug.cpp
         src/Hopper.cpp
+        include/Spider.h
+        src/Spider.cpp
 )
 
 target_link_libraries(cpp_ca3 sfml-system sfml-window sfml-graphics sfml-audio)

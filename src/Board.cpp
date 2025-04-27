@@ -1,6 +1,7 @@
 #include "../include/Board.h"
 #include "../include/Crawler.h"
 #include "../include/Hopper.h"
+#include "../include/Spider.h"
 #include <chrono>
 #include <fstream>
 #include <iostream>
@@ -34,6 +35,9 @@ void Board::loadBugsFromFile(const string& fileName) {
         else if (type == 'C') {
             bugs.push_back(new Crawler(id, x, y, static_cast<Direction>(dir), size));
             cout << "Loaded Crawler: ID=" << id << endl;
+        }
+        else if (type == 'S') {
+            bugs.push_back(new Spider(id,x,y,static_cast<Direction>(dir),size));
         }
         else {
             cerr << "Unrecognized bug type: " << type << endl;
